@@ -17,6 +17,11 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    color:  #4EBDBE;
+    transition: 0.3s;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -105,4 +110,28 @@ header a{
 .resume_item strong{
     font-size: 1.7rem;
     color: var(--main-color);
+}
+
+/* fotter */
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer .wrap{
+    border-top: 1px solid #4EBDBE;
+    align-content: center;
+}
+
+footer a{
+    color: var(--text-color);
+    font-size: 1.8rem;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 1.3rem 0;
+}
+
+footer a:not(:last-child):after{
+    content: "/";
+    color: #4EBDBE;
+    margin: 0 1rem;
 }
