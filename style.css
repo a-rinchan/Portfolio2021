@@ -84,6 +84,7 @@ header a{
 .hello h1{
     font-size: 3.5rem;
     font-family: 'Varta', sans-serif;
+    color: var(--accent-color);
 }
 
 /* case study */
