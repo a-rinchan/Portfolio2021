@@ -3,7 +3,10 @@
     padding: 0;
 }
 
-html{ font-size: 62.5%; }
+html{ 
+    font-size: 62.5%; 
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif; 
+}
 
 :root{
     --main-color: #313131;
@@ -19,6 +22,16 @@ a:hover{
     transition: 0.3s;
 }
 
+h3{
+    font-size: 2rem;
+    font-family: 'Varta', sans-serif;
+}
+
+p{
+    font-size: 1.3rem;
+    font-family: "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", sans-serif; 
+    color: var(--text-color);
+}
 header{
     display: flex;
     justify-content: center;
@@ -81,12 +94,15 @@ header a{
 
 .grid_item{
     margin: 2rem;
-    display: inline-flex;
     position: relative;
     box-shadow: 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px 1px rgb(0 0 0 / 3%);
     border-radius: 0.4rem;
     transition: box-shadow 0.1s cubic-bezier(0.4, 0, 0.2, 1);
     flex-direction: column;
+}
+
+.grid_item_text{
+    padding: 1rem 1.5rem;
 }
 
 .grid_item a{
@@ -96,7 +112,24 @@ header a{
     left: 0;
     bottom: 0;
     margin: 0;
+    padding: 0;
 }
+
+.grid_item figure{
+    margin: 0;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    display: block;
+    order: 1;
+}
+
+figure img{
+    width: 100%;
+    height: auto;
+    border-radius: 0.4rem;
+}
+
 
 /* fotter */
 footer{
