@@ -77,6 +77,26 @@ header a{
     color: var(--accent-color);
 }
 
+/* contents */
+.contents{
+    width: 100%;
+    max-width: 850px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* introduciton */
+.intro{
+    margin: 0 0 10rem;
+    text-align: center;
+}
+.intro p{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    line-height: 3rem;
+}
+
 /* resume */
 .resume{
     width: 100%;
