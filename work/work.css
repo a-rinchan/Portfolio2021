@@ -123,6 +123,10 @@ header a{
     line-height: 3rem;
 }
 
+.twitter-tweet{
+    margin: 0 auto;
+}
+
 /* fotter */
 footer{
     width: 100%;
